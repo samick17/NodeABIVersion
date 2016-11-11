@@ -1,11 +1,14 @@
 {
   "name": "node-abi-version",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Get abi version by node/iojs version",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Samick",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "htmlparser2": "^3.9.2"
+  }
 }
