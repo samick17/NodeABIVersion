@@ -83,6 +83,9 @@ module.exports = function() {
   return {
     getABIVersion: function() {
       return NodeABIVersionMap[process.version.replace(/[a-z]/g, '')];
+    },
+    getABIVersionByNodeVersion: function(nodeVersion) {
+      return NodeABIVersionMap[nodeVersion.replace(/[a-z]/g, '')];
     }
   };
 }();
