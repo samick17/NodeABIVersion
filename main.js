@@ -79,5 +79,10 @@ module.exports = function() {
     parser.write(data.toString());
     parser.end();
   });
-  //return require('./nodeabi.json');
+  var NodeABIVersionMap = require('./nodeabi.json');
+  module.exports = {
+    getABIVersion: function() {
+      return NodeABIVersionMap[process.version.replace(/[a-z]/g, '')];
+    }
+  };
 }();
