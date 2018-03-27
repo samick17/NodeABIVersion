@@ -29,7 +29,7 @@ module.exports = function() {
       ontext: function(text) {
         if(startTd) {
           if(colIdx == 0) {
-            var verPattern = /.* (v.*)/
+            var verPattern = /.* (.*)/;
             var result = verPattern.exec(text.trim())[1];
             nodeVer.push(result);
           }
@@ -79,5 +79,5 @@ module.exports = function() {
     parser.write(data.toString());
     parser.end();
   });
-  return require('./nodeabi.json');
+  //return require('./nodeabi.json');
 }();
