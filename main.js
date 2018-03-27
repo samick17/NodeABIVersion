@@ -80,7 +80,6 @@ module.exports = function() {
     parser.end();
   });
   var NodeABIVersionMap = require('./nodeabi.json');
-  console.log(NodeABIVersionMap);
   return {
     getABIVersion: function() {
       return NodeABIVersionMap[process.version.replace(/[a-z]/g, '')];
