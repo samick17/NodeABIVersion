@@ -7,6 +7,6 @@
   "author": "Samick <boneache@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "node-xml-parser": "^1.0.0"
+    "xml-node-parser": "^1.0.0"
   }
 }
