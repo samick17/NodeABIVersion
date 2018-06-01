@@ -1,9 +1,12 @@
 {
   "name": "node-abi-version",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Get abi version by node/iojs version",
   "main": "main.js",
   "scripts": {},
+  "keywords": [
+    "abi"
+  ],
   "author": "Samick <boneache@gmail.com>",
   "license": "MIT",
   "dependencies": {
