@@ -1,12 +1,16 @@
 {
   "name": "node-abi-version",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Get abi version by node/iojs version",
   "main": "main.js",
   "scripts": {},
   "keywords": [
     "abi"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samick17/NodeABIVersion"
+  },
   "author": "Samick <boneache@gmail.com>",
   "license": "MIT",
   "dependencies": {
