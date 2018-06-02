@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const xmlParser = require('node-xml-parser');
+const xmlParser = require('xml-node-parser');
 
 function createABIJson(nodeAbi, callback) {
   var filePath = path.resolve('./nodeabi.json');
