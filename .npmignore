@@ -10,4 +10,5 @@ npm-debug.log
 .DS_Store
 ._*
 .lock-wscript
-.versions-list
+versions-list
+abi-map-html-parser
