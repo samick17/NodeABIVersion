@@ -12,11 +12,11 @@ npm install node-abi-version --save
 
 ## ChangeLogs
 
-####2018/07/15
+#### 2018/07/15
 
 1. Update abi version map for latest: Node.js: 10.6.0(abi: 64)
 
-####2018/06/02
+#### 2018/06/02
  
 1. bugfix: some of wrong abi version(6.x.x), reported by 
 **KSR YASUDA**.
