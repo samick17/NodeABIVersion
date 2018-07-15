@@ -1,5 +1,81 @@
 <tbody>
 <tr>
+<td data-label="Version">Node.js 10.6.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2018-07-04</time></td>
+<td data-label="V8">6.7.288.46</td>
+<td data-label="npm">6.1.0</td>
+<td data-label="NODE_MODULE_VERSION">64</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v10.6.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.6.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v10.6.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 10.5.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2018-06-20</time></td>
+<td data-label="V8">6.7.288.46</td>
+<td data-label="npm">6.1.0</td>
+<td data-label="NODE_MODULE_VERSION">64</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v10.5.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.5.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v10.5.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 10.4.1</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2018-06-12</time></td>
+<td data-label="V8">6.7.288.45</td>
+<td data-label="npm">6.1.0</td>
+<td data-label="NODE_MODULE_VERSION">64</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v10.4.1/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.4.1">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v10.4.1/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 10.4.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2018-06-06</time></td>
+<td data-label="V8">6.7.288.43</td>
+<td data-label="npm">6.1.0</td>
+<td data-label="NODE_MODULE_VERSION">64</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v10.4.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.4.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v10.4.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
 <td data-label="Version">Node.js 10.3.0</td>
 <td data-label="LTS"></td>
 <td data-label="Date"><time>2018-05-29</time></td>
@@ -90,6 +166,25 @@ Downloads
 Changelog
 </a>
 <a href="https://nodejs.org/dist/v10.0.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 9.11.2</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2018-06-12</time></td>
+<td data-label="V8">6.2.414.46</td>
+<td data-label="npm">5.6.0</td>
+<td data-label="NODE_MODULE_VERSION">59</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v9.11.2/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V9.md#9.11.2">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v9.11.2/docs/api/">
 Docs
 </a>
 </td>
@@ -413,6 +508,25 @@ Downloads
 Changelog
 </a>
 <a href="https://nodejs.org/dist/v9.0.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 8.11.3</td>
+<td data-label="LTS">Carbon</td>
+<td data-label="Date"><time>2018-06-12</time></td>
+<td data-label="V8">6.2.414.54</td>
+<td data-label="npm">5.6.0</td>
+<td data-label="NODE_MODULE_VERSION">57</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v8.11.3/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md#8.11.3">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v8.11.3/docs/api/">
 Docs
 </a>
 </td>
@@ -1192,6 +1306,25 @@ Downloads
 Changelog
 </a>
 <a href="https://nodejs.org/dist/v7.0.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 6.14.3</td>
+<td data-label="LTS">Boron</td>
+<td data-label="Date"><time>2018-06-12</time></td>
+<td data-label="V8">5.1.281.111</td>
+<td data-label="npm">3.10.10</td>
+<td data-label="NODE_MODULE_VERSION">48</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v6.14.3/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V6.md#6.14.3">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v6.14.3/docs/api/">
 Docs
 </a>
 </td>

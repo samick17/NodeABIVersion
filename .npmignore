@@ -12,3 +12,4 @@ npm-debug.log
 .lock-wscript
 versions-list
 abi-map-html-parser
+test/
