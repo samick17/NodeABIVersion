@@ -4,6 +4,7 @@ describe('test-versions', () => {
 	const NodeABI = require('../main.js');
 
 	it('NODE_MODULE_VERSION: 64', () => {
+		assert.equal('64', NodeABI.getABIVersionByNodeVersion('10.7.0'));
 		assert.equal('64', NodeABI.getABIVersionByNodeVersion('10.6.0'));
 		assert.equal('64', NodeABI.getABIVersionByNodeVersion('10.5.0'));
 		assert.equal('64', NodeABI.getABIVersionByNodeVersion('10.4.1'));
