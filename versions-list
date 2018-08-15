@@ -1,5 +1,24 @@
 <tbody>
 <tr>
+<td data-label="Version">Node.js 10.8.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2018-08-01</time></td>
+<td data-label="V8">6.7.288.49</td>
+<td data-label="npm">6.2.0</td>
+<td data-label="NODE_MODULE_VERSION">64</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v10.8.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.8.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v10.8.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
 <td data-label="Version">Node.js 10.7.0</td>
 <td data-label="LTS"></td>
 <td data-label="Date"><time>2018-07-18</time></td>
