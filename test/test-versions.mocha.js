@@ -4,6 +4,12 @@ describe('test-versions', () => {
 	const NodeABI = require('../main.js');
 
 	it('NODE_MODULE_VERSION: 67', () => {
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.7.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.6.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.5.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.4.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.3.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.2.0'));
 		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.1.0'));
 		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.0.0'));
 	});
