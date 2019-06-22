@@ -3,7 +3,25 @@ describe('test-versions', () => {
 	const assert = require('chai').assert;
 	const NodeABI = require('../main.js');
 
+	it('NODE_MODULE_VERSION: 72', () => {
+		assert.equal('72', NodeABI.getABIVersionByNodeVersion('12.4.0'));
+		assert.equal('72', NodeABI.getABIVersionByNodeVersion('12.3.1'));
+		assert.equal('72', NodeABI.getABIVersionByNodeVersion('12.3.0'));
+		assert.equal('72', NodeABI.getABIVersionByNodeVersion('12.2.0'));
+		assert.equal('72', NodeABI.getABIVersionByNodeVersion('12.1.0'));
+		assert.equal('72', NodeABI.getABIVersionByNodeVersion('12.0.0'));
+	});
+
 	it('NODE_MODULE_VERSION: 67', () => {
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.15.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.14.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.13.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.12.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.11.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.10.1'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.10.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.9.0'));
+		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.8.0'));
 		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.7.0'));
 		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.6.0'));
 		assert.equal('67', NodeABI.getABIVersionByNodeVersion('11.5.0'));
