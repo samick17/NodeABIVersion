@@ -10,4 +10,3 @@ module.exports = function() {
     abiVersionMap: NodeABIVersionMap
   };
 }();
-console.log(module.exports.abiVersionMap)

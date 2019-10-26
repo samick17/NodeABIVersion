@@ -15,6 +15,7 @@ npm install node-abi-version --save
 #### 2019/10/26
 
 1. Update abi version map for latest: Node.js: 13.0.1(abi: 79)
+2. Move xml-node-parser to devDeps.
 
 #### 2019/06/22
 
