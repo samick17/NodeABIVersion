@@ -1,5 +1,271 @@
 <tbody>
 <tr>
+<td data-label="Version">Node.js 13.0.1</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-10-23</time></td>
+<td data-label="V8">7.8.279.17</td>
+<td data-label="npm">6.12.0</td>
+<td data-label="NODE_MODULE_VERSION">79</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v13.0.1/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V13.md#13.0.1">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v13.0.1/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 13.0.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-10-10</time></td>
+<td data-label="V8">7.8.279.17</td>
+<td data-label="npm">6.12.0</td>
+<td data-label="NODE_MODULE_VERSION">79</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v13.0.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V13.md#13.0.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v13.0.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.13.0</td>
+<td data-label="LTS">Erbium</td>
+<td data-label="Date"><time>2019-10-21</time></td>
+<td data-label="V8">7.7.299.13</td>
+<td data-label="npm">6.12.0</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.13.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.13.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.13.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.12.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-10-11</time></td>
+<td data-label="V8">7.7.299.13</td>
+<td data-label="npm">6.11.3</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.12.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.12.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.12.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.11.1</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-10-01</time></td>
+<td data-label="V8">7.7.299.11</td>
+<td data-label="npm">6.11.3</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.11.1/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.11.1">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.11.1/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.11.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-09-25</time></td>
+<td data-label="V8">7.7.299.11</td>
+<td data-label="npm">6.11.3</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.11.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.11.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.11.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.10.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-09-04</time></td>
+<td data-label="V8">7.6.303.29</td>
+<td data-label="npm">6.10.3</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.10.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.10.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.10.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.9.1</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-08-26</time></td>
+<td data-label="V8">7.6.303.29</td>
+<td data-label="npm">6.10.2</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.9.1/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.9.1">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.9.1/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.9.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-08-20</time></td>
+<td data-label="V8">7.6.303.29</td>
+<td data-label="npm">6.10.2</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.9.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.9.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.9.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.8.1</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-08-15</time></td>
+<td data-label="V8">7.5.288.22</td>
+<td data-label="npm">6.10.2</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.8.1/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.8.1">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.8.1/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.8.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-08-06</time></td>
+<td data-label="V8">7.5.288.22</td>
+<td data-label="npm">6.10.2</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.8.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.8.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.8.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.7.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-07-23</time></td>
+<td data-label="V8">7.5.288.22</td>
+<td data-label="npm">6.10.0</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.7.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.7.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.7.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.6.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-07-03</time></td>
+<td data-label="V8">7.5.288.22</td>
+<td data-label="npm">6.9.0</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.6.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.6.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.6.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 12.5.0</td>
+<td data-label="LTS"></td>
+<td data-label="Date"><time>2019-06-26</time></td>
+<td data-label="V8">7.5.288.22</td>
+<td data-label="npm">6.9.0</td>
+<td data-label="NODE_MODULE_VERSION">72</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v12.5.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.5.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v12.5.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
 <td data-label="Version">Node.js 12.4.0</td>
 <td data-label="LTS"></td>
 <td data-label="Date"><time>2019-06-04</time></td>
@@ -432,6 +698,82 @@ Downloads
 Changelog
 </a>
 <a href="https://nodejs.org/dist/v11.0.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 10.17.0</td>
+<td data-label="LTS">Dubnium</td>
+<td data-label="Date"><time>2019-10-21</time></td>
+<td data-label="V8">6.8.275.32</td>
+<td data-label="npm">6.11.3</td>
+<td data-label="NODE_MODULE_VERSION">64</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v10.17.0/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.17.0">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v10.17.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 10.16.3</td>
+<td data-label="LTS">Dubnium</td>
+<td data-label="Date"><time>2019-08-15</time></td>
+<td data-label="V8">6.8.275.32</td>
+<td data-label="npm">6.9.0</td>
+<td data-label="NODE_MODULE_VERSION">64</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v10.16.3/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.16.3">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v10.16.3/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 10.16.2</td>
+<td data-label="LTS">Dubnium</td>
+<td data-label="Date"><time>2019-08-06</time></td>
+<td data-label="V8">6.8.275.32</td>
+<td data-label="npm">6.9.0</td>
+<td data-label="NODE_MODULE_VERSION">64</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v10.16.2/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.16.2">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v10.16.2/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 10.16.1</td>
+<td data-label="LTS">Dubnium</td>
+<td data-label="Date"><time>2019-07-31</time></td>
+<td data-label="V8">6.8.275.32</td>
+<td data-label="npm">6.9.0</td>
+<td data-label="NODE_MODULE_VERSION">64</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v10.16.1/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.16.1">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v10.16.1/docs/api/">
 Docs
 </a>
 </td>
@@ -1230,6 +1572,44 @@ Downloads
 Changelog
 </a>
 <a href="https://nodejs.org/dist/v9.0.0/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 8.16.2</td>
+<td data-label="LTS">Carbon</td>
+<td data-label="Date"><time>2019-10-08</time></td>
+<td data-label="V8">6.2.414.78</td>
+<td data-label="npm">6.4.1</td>
+<td data-label="NODE_MODULE_VERSION">57</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v8.16.2/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md#8.16.2">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v8.16.2/docs/api/">
+Docs
+</a>
+</td>
+</tr>
+<tr>
+<td data-label="Version">Node.js 8.16.1</td>
+<td data-label="LTS">Carbon</td>
+<td data-label="Date"><time>2019-08-15</time></td>
+<td data-label="V8">6.2.414.77</td>
+<td data-label="npm">6.4.1</td>
+<td data-label="NODE_MODULE_VERSION">57</td>
+<td class="download-table-last">
+<a href="https://nodejs.org/download/release/v8.16.1/">
+Downloads
+</a>
+<a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md#8.16.1">
+Changelog
+</a>
+<a href="https://nodejs.org/dist/v8.16.1/docs/api/">
 Docs
 </a>
 </td>

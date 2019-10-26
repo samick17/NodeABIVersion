@@ -12,6 +12,10 @@ npm install node-abi-version --save
 
 ## ChangeLogs
 
+#### 2019/10/26
+
+1. Update abi version map for latest: Node.js: 13.0.1(abi: 79)
+
 #### 2019/06/22
 
 1. Update abi version map for latest: Node.js: 12.4.0(abi: 72)
