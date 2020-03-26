@@ -4,6 +4,18 @@ describe('test-versions', () => {
 	const NodeABI = require('../main.js');
 
 	it('NODE_MODULE_VERSION: 79', () => {
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.11.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.10.1'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.10.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.9.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.8.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.7.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.6.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.5.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.4.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.3.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.2.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.1.0'));
 		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.0.1'));
 		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.0.0'));
 	});
