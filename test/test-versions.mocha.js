@@ -3,7 +3,13 @@ describe('test-versions', () => {
 	const assert = require('chai').assert;
 	const NodeABI = require('../main.js');
 
+	it('NODE_MODULE_VERSION: 83', () => {
+		assert.equal('83', NodeABI.getABIVersionByNodeVersion('14.0.0'));
+	});
+
 	it('NODE_MODULE_VERSION: 79', () => {
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.13.0'));
+		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.12.0'));
 		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.11.0'));
 		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.10.1'));
 		assert.equal('79', NodeABI.getABIVersionByNodeVersion('13.10.0'));
