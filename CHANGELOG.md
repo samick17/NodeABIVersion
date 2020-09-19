@@ -1,5 +1,9 @@
 # ChangeLogs
 
+## 2020/09/19
+
+1. Update abi version map for latest: Node.js: 14.11.0(abi: 83)
+
 ## 2020/04/25
 
 1. Update abi version map for latest: Node.js: 14.0.0(abi: 83)
