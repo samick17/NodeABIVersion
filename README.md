@@ -15,6 +15,10 @@ Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't 
 npm install node-abi-version --save
 ```
 
+## NPM
+
+ [module](https://www.npmjs.com/package/node-abi-version)
+
 ## ChangeLogs
 
   [Link](./CHANGELOG.md)

@@ -12,4 +12,6 @@ npm-debug.log
 .lock-wscript
 versions-list
 abi-map-html-parser.js
-test/
+update-nodeabi-json.js
+CHANGELOG.md
+README.md

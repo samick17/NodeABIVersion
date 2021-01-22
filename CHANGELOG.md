@@ -3,6 +3,7 @@
 ## 2021/01/22
 
 1. Update abi version map for latest: Node.js: 15.6.0(abi: 88)
+2. Update .npmignore(update-nodeabi-json.js,CHAINGLOG.md,README.md) to reduce size
 
 ## 2020/09/19
 

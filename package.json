@@ -1,7 +1,7 @@
 {
   "name": "node-abi-version",
-  "version": "1.2.5",
-  "description": "Get abi version by node/iojs version",
+  "version": "1.2.6",
+  "description": "Light-weight version for Get ABI version for node/iojs",
   "main": "main.js",
   "scripts": {
     "test": "node_modules/.bin/mocha -w ./test/**/*.mocha.js"
