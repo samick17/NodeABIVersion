@@ -14,6 +14,8 @@ describe('test-versions', () => {
 		assert.equal('88', NodeABI.getABIVersionByNodeVersion('15.5.0'));
 		assert.equal('88', NodeABI.getABIVersionByNodeVersion('15.5.1'));
 		assert.equal('88', NodeABI.getABIVersionByNodeVersion('15.6.0'));
+		assert.equal('88', NodeABI.getABIVersionByNodeVersion('15.7.0'));
+		assert.equal('88', NodeABI.getABIVersionByNodeVersion('15.8.0'));
 	});
 
 	it('NODE_MODULE_VERSION: 83', () => {
