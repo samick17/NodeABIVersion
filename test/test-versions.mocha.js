@@ -16,6 +16,8 @@ describe('test-versions', () => {
 		assert.equal('88', NodeABI.getABIVersionByNodeVersion('15.6.0'));
 		assert.equal('88', NodeABI.getABIVersionByNodeVersion('15.7.0'));
 		assert.equal('88', NodeABI.getABIVersionByNodeVersion('15.8.0'));
+		assert.equal('88', NodeABI.getABIVersionByNodeVersion('15.9.0'));
+		assert.equal('88', NodeABI.getABIVersionByNodeVersion('15.10.0'));
 	});
 
 	it('NODE_MODULE_VERSION: 83', () => {
@@ -41,6 +43,8 @@ describe('test-versions', () => {
 		assert.equal('83', NodeABI.getABIVersionByNodeVersion('14.15.2'));
 		assert.equal('83', NodeABI.getABIVersionByNodeVersion('14.15.3'));
 		assert.equal('83', NodeABI.getABIVersionByNodeVersion('14.15.4'));
+		assert.equal('83', NodeABI.getABIVersionByNodeVersion('14.15.5'));
+		assert.equal('83', NodeABI.getABIVersionByNodeVersion('14.16.0'));
 	});
 
 	it('NODE_MODULE_VERSION: 79', () => {
