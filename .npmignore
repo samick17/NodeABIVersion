@@ -15,3 +15,5 @@ abi-map-html-parser.js
 update-nodeabi-json.js
 CHANGELOG.md
 README.md
+package-lock.json
+node_modules
