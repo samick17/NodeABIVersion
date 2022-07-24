@@ -1,5 +1,9 @@
 # ChangeLogs
 
+## 2022/07/24
+
+1. Update abi version map for latest: Node.js: 18.6.0(abi: 108)
+
 ## 2022/05/02
 
 1. Update abi version map for latest: Node.js: 18.0.0(abi: 108)
