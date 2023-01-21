@@ -3,7 +3,25 @@ describe('test-versions', () => {
 	const assert = require('chai').assert;
 	const NodeABI = require('../main.js');
 
+	it('NODE_MODULE_VERSION: 111', () => {
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.4.0'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.3.0'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.2.0'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.1.0'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.0.1'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.0.0'));
+	});
+
 	it('NODE_MODULE_VERSION: 108', () => {
+		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.13.0'));
+		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.12.1'));
+		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.12.0'));
+		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.11.0'));
+		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.10.0'));
+		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.9.1'));
+		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.9.0'));
+		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.8.0'));
+		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.7.0'));
 		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.6.0'));
 		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.5.0'));
 		assert.equal('108', NodeABI.getABIVersionByNodeVersion('18.4.0'));

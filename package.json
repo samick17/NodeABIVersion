@@ -1,6 +1,6 @@
 {
   "name": "node-abi-version",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "Light-weight version for Get ABI version for node/iojs",
   "main": "main.js",
   "scripts": {

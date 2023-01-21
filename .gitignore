@@ -25,3 +25,5 @@ build/Release
 /build
 /dist/Automator.node
 /node_modules
+
+.DS_Store
