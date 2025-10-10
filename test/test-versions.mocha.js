@@ -3,7 +3,133 @@ describe('test-versions', () => {
 	const assert = require('chai').assert;
 	const NodeABI = require('../main.js');
 
+	it('NODE_MODULE_VERSION: 137', () => {
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.10.0'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.9.0'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.8.0'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.7.0'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.6.0'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.5.0'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.4.1'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.4.0'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.3.0'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.2.0'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.1.0'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.0.2'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.0.1'));
+		assert.equal('137', NodeABI.getABIVersionByNodeVersion('24.0.0'));
+	});
+
+	it('NODE_MODULE_VERSION: 131', () => {
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.11.1'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.11.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.10.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.9.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.8.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.7.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.6.1'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.6.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.5.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.4.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.3.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.2.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.1.0'));
+		assert.equal('131', NodeABI.getABIVersionByNodeVersion('23.0.0'));
+	});
+
+	it('NODE_MODULE_VERSION: 127', () => {
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.20.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.19.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.18.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.17.1'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.17.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.16.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.15.1'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.15.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.14.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.13.1'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.13.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.12.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.11.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.10.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.9.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.8.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.7.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.6.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.5.1'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.5.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.4.1'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.4.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.3.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.2.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.1.0'));
+		assert.equal('127', NodeABI.getABIVersionByNodeVersion('22.0.0'));
+	});
+
+	it('NODE_MODULE_VERSION: 120', () => {
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.7.3'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.7.2'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.7.1'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.7.0'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.6.2'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.6.1'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.6.0'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.5.0'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.4.0'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.3.0'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.2.0'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.1.0'));
+		assert.equal('120', NodeABI.getABIVersionByNodeVersion('21.0.0'));
+	});
+
+	it('NODE_MODULE_VERSION: 115', () => {
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.19.5'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.19.4'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.19.3'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.19.2'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.19.1'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.19.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.18.3'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.18.2'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.18.1'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.18.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.17.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.16.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.15.1'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.15.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.14.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.13.1'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.13.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.12.2'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.12.1'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.12.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.11.1'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.11.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.10.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.9.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.8.1'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.8.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.7.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.6.1'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.6.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.5.1'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.5.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.4.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.3.1'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.3.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.2.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.1.0'));
+		assert.equal('115', NodeABI.getABIVersionByNodeVersion('20.0.0'));
+	});
+
 	it('NODE_MODULE_VERSION: 111', () => {
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.9.0'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.8.1'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.8.0'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.7.0'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.6.1'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.6.0'));
+		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.5.0'));
 		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.4.0'));
 		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.3.0'));
 		assert.equal('111', NodeABI.getABIVersionByNodeVersion('19.2.0'));
