@@ -50,7 +50,7 @@ const requestGet = async (url, {responseType='text/html'}={}) => {
 
 (async () => {
 	try {
-		const urlOfABI = 'https://nodejs.org/en/download/releases/';
+		const urlOfABI = 'https://nodejs.org/en/download/releases';
 		const outputFilePath = './versions-list';
 		/**/
 		const data = await requestGet(urlOfABI);
